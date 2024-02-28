@@ -13,6 +13,7 @@
 - 개발 환경: Google Colaboratory(https://colab.research.google.com )
 - 데이터 수집 방법: 공공데이터 포털(https://www.data.go.kr)
 - 사용하는 데이터: 전국 도시 공원 정보 표준 데이터
+  <img width="700" height="" src="./image/dataset.png"/> 
 
 
 
