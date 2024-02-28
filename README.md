@@ -81,6 +81,32 @@
 ### 03-3. 전국 공원 분포도 시각화
 
 > ### 1) 위도, 경도를 이용하여 전국 공원 분포도 시각화하기
-> <img width="" height="" src="./image/03-3-1.png"/> <img width="" height="" src="./image/03-3-2.png"/>
+> <img width="" height="" src="./image/03-3-1-1.png"/> <img width="" height="" src="./image/03-3-1-2.png"/><br/>
+> - 우리나라 위도, 경도에서 벗어난 부분이 있음을 확인 할 수 있다.
+>
+> ### 2) 위도, 경도 재조정 후 전국 분포도 시각화하기
+> <img width="" height="" src="./image/03-3-2-1.png"/> <img width="" height="" src="./image/03-3-2-2.png"/><br/>
+> - 우리나라 위도, 경도를 고려하여 경도가 132 이하이고 위도가 32이상인 데이터만 추출하여 데이터의 정확도를 높여 scatterplot() 함수를 이용하여 전국 공원 분포도를 시각화 한다.
+>
+> ### 3) '공원구분'별 전국 공원 분포도 시각화하기
+> <img width="" height="" src="./image/03-3-3.png"/><br/>
+> - 공원구분별 전국 공원 분포도를 scatterplot() 함수를 이용하여 시각화 한다.
+> -  분포도를 통해 근린공원이 가장 많음을 확인할 수 있다.
+>
+> ### 4) '시'별 전국 공원 분포도 시각화하기
+> <img width="" height="" src="./image/03-3-4.png"/><br/>
+>
+> ### 5) '연도'별 공원 수 시각화하기
+> <img width="" height="" src="./image/03-3-5-1.png"/><img width="" height="" src="./image/03-3-5-2.png"/><br/>
+> - 지정고시일 데이터 타입이 3-1을 보면 object임을 확인 할 수 있다.
+> - 지정고시일 데이터 타입을 to_datetime() 함수를 이용하여 object에서 datetime으로 바꾼다.
+> - 지정고시일 데이터를 dt.year을 이용하여 년도로 나눈다.
+> -  histplot() 함수를 이용하여 연도별 공원 수를 시각화한다.
+> -  시각화한 자료를 통해 2010년쯤 지어진 공원이 가장 많음을 알 수 있다.
+>
+> ### 6) 지도 위의 시각화
+> <img width="" height="" src="./image/03-3-6-1.png"/><img width="" height="" src="./image/03-3-6-2.png"/><br/>
+> - 소재지도로명주소를 '구'별로도 분류한다.
+> - folium 라이르러리를 이용하여 지도 위에 시각화한다.
 
 
